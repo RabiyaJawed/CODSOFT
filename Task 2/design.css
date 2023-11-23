@@ -1,0 +1,136 @@
+#Main{
+    height:100vh;
+    width:100vw;
+}
+
+#Main img{
+    position:relative;
+    height:100vh;
+    width:100vw;
+}
+
+#header {
+    position:absolute;
+    top: 8px; 
+    background-color:lightblue;
+    height: 10vh; 
+    width: 100vw;
+    opacity:1.0; 
+}
+
+#left p{
+    color:white;
+    position: absolute;
+    top: 6px;
+    left: 16px;
+    font-size:20px;
+    font-weight:bold;
+    font-family:sans-serif;
+    padding-left:50px;
+}
+
+#right { 
+    position: absolute;
+    top: 15px;
+    right: 100px;       
+}
+
+#right a{
+    color:white;
+    padding-left:70px;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+    font-family:sans-serif;
+}
+
+#right a:hover{
+    color:black; 
+}
+
+#header button{
+    font-size:20px;
+    background-color:white;
+    width:150px;
+    height:40PX;
+    margin-left:40px;
+    border:none;
+    border-radius:50px;
+    color:lightblue;
+    font-weight:bold;
+    font-family:sans-serif;
+ }
+#page {
+    position:absolute;
+    top:70px;
+    padding-top:80px;
+    background-color:lightblue;
+    height: 79vh; 
+    width: 100vw;
+    opacity:0.9;
+
+}
+#box { 
+    width:600px;
+    height:130px;
+    
+    margin-left:30px;
+    color:white;
+    font-family:sans-serif;
+    line-height:70px;
+    font-size:30px;
+    
+}
+
+#cards{
+    height:300px;
+    width:900px;
+   
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-left:400px;
+    
+}
+#card1{
+    height:250px;
+    width:230px;
+    background-color:white;
+    border-radius:30px;
+    opacity:1.0;
+    
+}
+#card2{
+    height:300px;
+    width:250px;
+    background-color:white;
+    margin-left:20px;
+    margin-bottom:50px;
+    border-radius:30px;
+}
+#card3{
+    height:250px;
+    width:230px;
+    background-color:white;
+    margin-left:20px;
+    border-radius:30px;
+
+}
+#cards h2{
+    text-align:center;
+    padding-top:10px;
+    color:lightblue;
+    font-family:sans-serif;
+
+}
+#cards p{
+    text-align:center;
+    padding-top:10px;
+   font-weight:bold;
+    font-family:sans-serif;
+
+}
+#card2 p{
+    padding-top:35px;
+ 
+}
